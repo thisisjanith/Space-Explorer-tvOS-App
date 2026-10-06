@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		25E9D8C230750C1900E53EFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25E9D8A730750C1700E53EFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25E9D8AE30750C1700E53EFA;
+			remoteInfo = "Janith-TVOS";
+		};
+		25E9D8CC30750C1900E53EFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25E9D8A730750C1700E53EFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25E9D8AE30750C1700E53EFA;
+			remoteInfo = "Janith-TVOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25E9D8AF30750C1700E53EFA /* Janith-TVOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Janith-TVOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E9D8C130750C1900E53EFA /* Janith-TVOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Janith-TVOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E9D8CB30750C1900E53EFA /* Janith-TVOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Janith-TVOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		25E9D8B130750C1700E53EFA /* Janith-TVOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Janith-TVOS";
+			sourceTree = "<group>";
+		};
+		25E9D8C430750C1900E53EFA /* Janith-TVOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Janith-TVOSTests";
+			sourceTree = "<group>";
+		};
+		25E9D8CE30750C1900E53EFA /* Janith-TVOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Janith-TVOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25E9D8AC30750C1700E53EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E9D8BE30750C1900E53EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E9D8C830750C1900E53EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25E9D8A630750C1700E53EFA = {
+			isa = PBXGroup;
+			children = (
+				25E9D8B130750C1700E53EFA /* Janith-TVOS */,
+				25E9D8C430750C1900E53EFA /* Janith-TVOSTests */,
+				25E9D8CE30750C1900E53EFA /* Janith-TVOSUITests */,
+				25E9D8B030750C1700E53EFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25E9D8B030750C1700E53EFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25E9D8AF30750C1700E53EFA /* Janith-TVOS.app */,
+				25E9D8C130750C1900E53EFA /* Janith-TVOSTests.xctest */,
+				25E9D8CB30750C1900E53EFA /* Janith-TVOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25E9D8AE30750C1700E53EFA /* Janith-TVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E9D8D530750C1900E53EFA /* Build configuration list for PBXNativeTarget "Janith-TVOS" */;
+			buildPhases = (
+				25E9D8AB30750C1700E53EFA /* Sources */,
+				25E9D8AC30750C1700E53EFA /* Frameworks */,
+				25E9D8AD30750C1700E53EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				25E9D8B130750C1700E53EFA /* Janith-TVOS */,
+			);
+			name = "Janith-TVOS";
+			packageProductDependencies = (
+			);
+			productName = "Janith-TVOS";
+			productReference = 25E9D8AF30750C1700E53EFA /* Janith-TVOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25E9D8C030750C1900E53EFA /* Janith-TVOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E9D8D830750C1900E53EFA /* Build configuration list for PBXNativeTarget "Janith-TVOSTests" */;
+			buildPhases = (
+				25E9D8BD30750C1900E53EFA /* Sources */,
+				25E9D8BE30750C1900E53EFA /* Frameworks */,
+				25E9D8BF30750C1900E53EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25E9D8C330750C1900E53EFA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				25E9D8C430750C1900E53EFA /* Janith-TVOSTests */,
+			);
+			name = "Janith-TVOSTests";
+			packageProductDependencies = (
+			);
+			productName = "Janith-TVOSTests";
+			productReference = 25E9D8C130750C1900E53EFA /* Janith-TVOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25E9D8CA30750C1900E53EFA /* Janith-TVOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E9D8DB30750C1900E53EFA /* Build configuration list for PBXNativeTarget "Janith-TVOSUITests" */;
+			buildPhases = (
+				25E9D8C730750C1900E53EFA /* Sources */,
+				25E9D8C830750C1900E53EFA /* Frameworks */,
+				25E9D8C930750C1900E53EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25E9D8CD30750C1900E53EFA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				25E9D8CE30750C1900E53EFA /* Janith-TVOSUITests */,
+			);
+			name = "Janith-TVOSUITests";
+			packageProductDependencies = (
+			);
+			productName = "Janith-TVOSUITests";
+			productReference = 25E9D8CB30750C1900E53EFA /* Janith-TVOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25E9D8A730750C1700E53EFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					25E9D8AE30750C1700E53EFA = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					25E9D8C030750C1900E53EFA = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 25E9D8AE30750C1700E53EFA;
+					};
+					25E9D8CA30750C1900E53EFA = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 25E9D8AE30750C1700E53EFA;
+					};
+				};
+			};
+			buildConfigurationList = 25E9D8AA30750C1700E53EFA /* Build configuration list for PBXProject "Janith-TVOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25E9D8A630750C1700E53EFA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 25E9D8B030750C1700E53EFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25E9D8AE30750C1700E53EFA /* Janith-TVOS */,
+				25E9D8C030750C1900E53EFA /* Janith-TVOSTests */,
+				25E9D8CA30750C1900E53EFA /* Janith-TVOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25E9D8AD30750C1700E53EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E9D8BF30750C1900E53EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E9D8C930750C1900E53EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25E9D8AB30750C1700E53EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E9D8BD30750C1900E53EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E9D8C730750C1900E53EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25E9D8C330750C1900E53EFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25E9D8AE30750C1700E53EFA /* Janith-TVOS */;
+			targetProxy = 25E9D8C230750C1900E53EFA /* PBXContainerItemProxy */;
+		};
+		25E9D8CD30750C1900E53EFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25E9D8AE30750C1700E53EFA /* Janith-TVOS */;
+			targetProxy = 25E9D8CC30750C1900E53EFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25E9D8D330750C1900E53EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = H2SGDST2MQ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		25E9D8D430750C1900E53EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = H2SGDST2MQ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 26.5;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25E9D8D630750C1900E53EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2SGDST2MQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Space Explorer";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Janith-Kavinda.Janith-TVOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		25E9D8D730750C1900E53EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2SGDST2MQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Space Explorer";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Janith-Kavinda.Janith-TVOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		25E9D8D930750C1900E53EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2SGDST2MQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Janith-Kavinda.Janith-TVOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Janith-TVOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Janith-TVOS";
+				TVOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		25E9D8DA30750C1900E53EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2SGDST2MQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Janith-Kavinda.Janith-TVOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Janith-TVOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Janith-TVOS";
+				TVOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+		25E9D8DC30750C1900E53EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2SGDST2MQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Janith-Kavinda.Janith-TVOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Janith-TVOS";
+			};
+			name = Debug;
+		};
+		25E9D8DD30750C1900E53EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2SGDST2MQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Janith-Kavinda.Janith-TVOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Janith-TVOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25E9D8AA30750C1700E53EFA /* Build configuration list for PBXProject "Janith-TVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E9D8D330750C1900E53EFA /* Debug */,
+				25E9D8D430750C1900E53EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E9D8D530750C1900E53EFA /* Build configuration list for PBXNativeTarget "Janith-TVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E9D8D630750C1900E53EFA /* Debug */,
+				25E9D8D730750C1900E53EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E9D8D830750C1900E53EFA /* Build configuration list for PBXNativeTarget "Janith-TVOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E9D8D930750C1900E53EFA /* Debug */,
+				25E9D8DA30750C1900E53EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E9D8DB30750C1900E53EFA /* Build configuration list for PBXNativeTarget "Janith-TVOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E9D8DC30750C1900E53EFA /* Debug */,
+				25E9D8DD30750C1900E53EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25E9D8A730750C1700E53EFA /* Project object */;
+}
